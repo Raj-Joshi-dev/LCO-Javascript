@@ -1,2 +1,3 @@
 # LCO-Javascript
-Complete Javascipt course from learncodeonline.in
+
+Complete Javascipt course from www.learncodeonline.in
