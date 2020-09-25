@@ -9,7 +9,7 @@
 // console.log(myObj);
 
 function sumOne(a, b) {
-	return a + b;
+  return a + b;
 }
 
 var myA = [5, 4];
@@ -17,13 +17,13 @@ var myA = [5, 4];
 
 // REST operator
 function sumTwo(a, b, ...args) {
-	console.log(args);
-	let multi = a * b;
-	let sum = 0;
-	for (const arg of args) {
-		sum += arg;
-	}
-	return [sum, multi];
+  // console.log(args);
+  let multi = a * b;
+  let sum = 0;
+  for (const arg of args) {
+    sum += arg;
+  }
+  return [sum, multi];
 }
 
 console.log(sumTwo(2, 3, 1, 1, 1));
